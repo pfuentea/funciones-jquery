@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUnciones JQuery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/funciones.css">
+    <script src="./js/funciones.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" id="btn1">AddClass</button>
+            </div>
+            <div class="col-10">
+                <h2>AddClass</h2>
+                <p id="p1">Haz click en el boton para agregar las clase rojo a este parrafo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" id="btn_show">Slidetogsle</button>
+            </div>
+            <div class="col-8">
+                <h2>Slidetoggle</h2>
+                <p id="p1">Haz click en el boton para que aparezca o desaparezca la imagen</p>
+                
+            </div>
+            <div class="col-2">
+                <img src="./img/vader2.PNG" alt="" id="vader" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" id="btn3">Append</button>
+            </div>
+            <div class="col-8" id="parrafos">
+                <h2>Append</h2>
+                <p>Click en el boton para agregar un nuevo parrafo</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" id="btn_toogle">Toggle</button>
+            </div>
+            <div class="col-10">
+                <h2 id="titulo">Toggle</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">                           
+                <button type="button" class="btn btn-primary" id="btn_slidedown">slideDown</button>   
+                <button type="button" class="btn btn-primary" id="btn_slideup">slideUp</button>   
+            </div>
+            <div class="col">
+                <h2 id="tituloSlide">SlideDown - SlideUp</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">                           
+                <button type="button" class="btn btn-primary" id="btn_fadein">Fade In</button>   
+                <button type="button" class="btn btn-primary" id="btn_fadeout">Fade Out</button>   
+            </div>
+            <div class="col">
+                <h2 id="tituloFade">FadeIn- FadeOut</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" id="btn_before">Before</button> 
+                <button type="button" class="btn btn-primary" id="btn_after">After</button> 
+            </div>
+            <div class="col">
+                <h2 id="tituloFade">Before- After</h2>
+                <p id="text_original">[Texto Original]</p>
+            </div>
+        </div>
+    </div>
+    <!--
+
+.append
+.html
+.attr
+.val
+.text
+-->
+    <div class="row">
+        <div class="col-12">
+            En algun momento usar $(this)
+        </div>
+    </div>
+</body>
+</html>
