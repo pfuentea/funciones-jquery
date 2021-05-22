@@ -36,4 +36,17 @@ $(document).ready(function(){
         $('#tituloFade').fadeOut(1000);
     });
     
+    $('#btn_before').on('click', function() { 
+        $('#text_original').before('<p>Este parrafo se agregó antes</p>');       
+    });
+
+    $('#btn_after').on('click', function() { 
+        $('#text_original').after('<p>Este parrafo se agregó después.</p>');       
+    });
+    $('#btn_append').on('click', function() { 
+        $('#text_append').append('Este texto aparece con .append ');       
+    });
+    $('#btn_html').on('click', function() { 
+        $('#text_html').html('Este texto aparece con .html');       
+    });
 });
