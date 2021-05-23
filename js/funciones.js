@@ -49,4 +49,15 @@ $(document).ready(function(){
     $('#btn_html').on('click', function() { 
         $('#text_html').html('Este texto aparece con .html');       
     });
+
+    $('#btn_attr').on('click', function() { 
+        var titulo = $("#text_attr").attr('title');
+        alert(titulo);
+    });
+
+    $('#btn_val').on('click', function() {         
+        $('#s1').text( $('#inputVal01').val() );
+    });
+
+
 });
